@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92719B78-385E-4658-8C7D-255D589E6AD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69A98202-5935-4C4B-8FEA-37D061051D05}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ignite.Entities", "src\Ignite.Entities\Ignite.Entities.xproj", "{BEC344D9-D5DA-4757-9645-2503DC3FF77A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ignite.Repositories", "src\Ignite.Repositories\Ignite.Repositories.xproj", "{74297012-4423-4353-98C9-A52D64138513}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ignite.Services", "src\Ignite.Services\Ignite.Services.xproj", "{385AD528-C681-4555-AFD3-6C8A1C717E6F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ignite.Api", "src\Ignite.Api\Ignite.Api.xproj", "{6E871363-B0BC-471E-943C-F9F28E08FE64}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ignite.Web", "src\Ignite.Web\Ignite.Web.xproj", "{329E0178-5D73-47BD-9472-C0871220C11C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC344D9-D5DA-4757-9645-2503DC3FF77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC344D9-D5DA-4757-9645-2503DC3FF77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC344D9-D5DA-4757-9645-2503DC3FF77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC344D9-D5DA-4757-9645-2503DC3FF77A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74297012-4423-4353-98C9-A52D64138513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74297012-4423-4353-98C9-A52D64138513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74297012-4423-4353-98C9-A52D64138513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74297012-4423-4353-98C9-A52D64138513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385AD528-C681-4555-AFD3-6C8A1C717E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385AD528-C681-4555-AFD3-6C8A1C717E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385AD528-C681-4555-AFD3-6C8A1C717E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385AD528-C681-4555-AFD3-6C8A1C717E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E871363-B0BC-471E-943C-F9F28E08FE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E871363-B0BC-471E-943C-F9F28E08FE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E871363-B0BC-471E-943C-F9F28E08FE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E871363-B0BC-471E-943C-F9F28E08FE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329E0178-5D73-47BD-9472-C0871220C11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329E0178-5D73-47BD-9472-C0871220C11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329E0178-5D73-47BD-9472-C0871220C11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329E0178-5D73-47BD-9472-C0871220C11C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEC344D9-D5DA-4757-9645-2503DC3FF77A} = {92719B78-385E-4658-8C7D-255D589E6AD9}
+		{74297012-4423-4353-98C9-A52D64138513} = {92719B78-385E-4658-8C7D-255D589E6AD9}
+		{385AD528-C681-4555-AFD3-6C8A1C717E6F} = {92719B78-385E-4658-8C7D-255D589E6AD9}
+		{6E871363-B0BC-471E-943C-F9F28E08FE64} = {92719B78-385E-4658-8C7D-255D589E6AD9}
+		{329E0178-5D73-47BD-9472-C0871220C11C} = {92719B78-385E-4658-8C7D-255D589E6AD9}
+	EndGlobalSection
+EndGlobal

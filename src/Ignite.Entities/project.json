@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Ignite.Entities Class Library",
+  "authors": [ "jruckert" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "EntityFramework.Core": "7.0.0-*",
+    "Newtonsoft.Json": "7.0.1"
+  },
+  "frameworks": {
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.10.0"
+      }
+    },
+    "dotnet5.4": { }
+  }
+}

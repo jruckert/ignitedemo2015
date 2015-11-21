@@ -1,0 +1,47 @@
+﻿{
+  "webroot": "wwwroot",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-*",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-*",
+    "Microsoft.AspNet.Mvc": "6.0.0-*",
+    "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-*",
+    "Microsoft.AspNet.Mvc.Formatters.Json": "6.0.0-*",
+    "Microsoft.AspNet.Diagnostics": "1.0.0-*",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-*",
+    "Microsoft.Extensions.Configuration": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-*",
+    "Microsoft.Extensions.Logging": "1.0.0-*",
+    "Microsoft.Extensions.Logging.Debug": "1.0.0-*",
+    "Microsoft.Extensions.Logging.Console": "1.0.0-*",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0-*",    
+    "EntityFramework.Core": "7.0.0-*",
+    "EntityFramework.InMemory": "7.0.0-*",
+    "Swashbuckle.SwaggerUi": "6.0.0-rc1-*",
+    "Ignite.Api": "1.0.0-*"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Ignite.Api": "1.0.0-*"
+      }
+    },
+    "dnxcore50": { }
+  },
+
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}

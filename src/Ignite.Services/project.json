@@ -1,0 +1,15 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Ignite.Services Class Library",
+  "authors": [ "jruckert" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "Ignite.Repositories": "1.0.0-*"
+  },
+  "frameworks": {
+    "net451": { },
+    "dotnet5.4": { }
+  } 
+}
